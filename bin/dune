@@ -1,0 +1,4 @@
+(executable
+ (public_name ocaml_kickstart)
+ (name main)
+ (libraries ocaml_kickstart))
