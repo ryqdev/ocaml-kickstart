@@ -1,4 +1,7 @@
 (lang dune 3.17)
 (name ocaml_kickstart)
-(sections (lib .) (bin ../../bin))
-(files (lib (META dune-package opam)) (bin (ocaml_kickstart)))
+(sections (lib .) (bin ../../bin) (doc ../../doc/ocaml_kickstart))
+(files
+ (lib (META dune-package opam))
+ (bin (ocaml_kickstart))
+ (doc (LICENSE README.md)))
